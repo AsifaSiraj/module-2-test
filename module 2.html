@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>image</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, center-middle-scale=1">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="style2.css">
+        <meta name="viewport" content="width=device-width, center-middle-scale=1, shrink-to-fit=no">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min"></script>
+   
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            
+             #chicken{
+                background-color: palevioletred;
+                border: 3px solid black;
+                position: inherit;
+             }
+             #sushi{
+                background-color:bisque;
+                border: 3px solid black;
+                position: inherit;
+             }
+             #beef{
+                background-color: red;
+                border: 3px solid black;
+                color: white;
+                position: inherit;
+             }
+             section{
+                background-color: gray;
+                border:3px solid black;
+                margin-left: 80px;
+                margin-top: 200px;
+             }
+ 
+            @media(max-width: 992px ){
+                #col1{
+                    width: 33%;
+                }
+                #col2{
+                    width: 33%;
+                }
+                #col3{
+                    width:33%
+                }
+        } 
+        @media(max-width: 768px ) and (min-width:991px){
+                #col1{
+                    width: 50%;
+                }
+                #col2{
+                    width: 50%;
+                }
+                #col3{
+                    width:100%
+                }
+        } 
+        @media(max-width: 768px ){
+            #col1{
+                    width: 100%;
+                }
+                #col2{
+                    width: 100%;
+                }
+                #col3{
+                    width:100%
+                }
+        } 
+       
+
+        </style>
+    </head>
+    <body bgcolor="white">
+       
+                <div  style="margin-top: 40px;">
+                    <text-align><center><h4>Our Menu</h4></center></text-align>
+                </div>
+            
+          
+                <section id="col1">
+                   
+                        <div class=" offset-9" id="chicken" >Chicken</div>
+                    
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odio incidunt ratione, sunt, nobis a assumenda, explicabo voluptate est fugiat exercitationem. Esse, harum hic. Porro numquam cum maiores nam sunt.
+            </section>
+
+                  <section id="col2" >
+                  
+                        <div class="col offset-9" id="beef" >Beef</div>
+                 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odio incidunt ratione, sunt, nobis a assumenda, explicabo voluptate est fugiat exercitationem. Esse, harum hic. Porro numquam cum maiores nam sunt.
+                  </section>
+                                      
+                                      <section id="col3">
+                                        
+                                            <div class="col offset-9" id="sushi" >sushi</div>
+                                        
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit odio incidunt ratione, sunt, nobis a assumenda, explicabo voluptate est fugiat exercitationem. Esse, harum hic. Porro numquam cum maiores nam sunt.
+                                                          </section>
+                  
+                 
+    </body>
+</html>
